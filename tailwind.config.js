@@ -6,6 +6,9 @@ module.exports = {
 		gridTemplateRows: {
 			'layout': 'auto 1fr auto',
 		},
+		fontFamily: {
+			'sans': ['Montserrat', ...defaultTheme.fontFamily.sans],
+		},
 	},
   },
   plugins: [],
